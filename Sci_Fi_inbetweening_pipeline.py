@@ -18,7 +18,7 @@ from diffusers import CogVideoXDDIMScheduler, CogVideoXDPMScheduler, CogVideoXIm
 from diffusers.callbacks import MultiPipelineCallbacks, PipelineCallback
 from diffusers.pipelines.cogvideo.pipeline_cogvideox import CogVideoXPipelineOutput, CogVideoXLoraLoaderMixin
 
-from cogvideo_EF_Net import CogVideoX_EF_Net
+from EF_Net import EF_Net
 import torch
 
 def resize_for_crop(image, crop_h, crop_w):
@@ -177,7 +177,7 @@ class CogVideoXEFNetInbetweeningPipeline(DiffusionPipeline, CogVideoXLoraLoaderM
         text_encoder: T5EncoderModel,
         vae: AutoencoderKLCogVideoX,
         transformer: CogVideoXTransformer3DModel,
-        EF_Net: CogVideoX_EF_Net,
+        EF_Net: EF_Net,
         scheduler: CogVideoXDDIMScheduler,
     ):
         super().__init__()

@@ -16,7 +16,7 @@ from diffusers.models.normalization import AdaLayerNorm, CogVideoXLayerNormZero,
 from diffusers.configuration_utils import ConfigMixin, register_to_config
 
 
-class CogVideoX_EF_Net(ModelMixin, ConfigMixin, PeftAdapterMixin):
+class EF_Net(ModelMixin, ConfigMixin, PeftAdapterMixin):
     _supports_gradient_checkpointing = True
     
     @register_to_config

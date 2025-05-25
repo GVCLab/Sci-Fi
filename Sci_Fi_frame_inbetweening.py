@@ -31,9 +31,9 @@ from diffusers import (
     AutoencoderKLCogVideoX
 )
 from diffusers.utils import export_to_video, load_image 
-from cogvideo_Sci_Fi_inbetweening_pipeline import CogVideoXEFNetInbetweeningPipeline
+from Sci_Fi_inbetweening_pipeline import CogVideoXEFNetInbetweeningPipeline
 from cogvideo_transformer import CustomCogVideoXTransformer3DModel
-from cogvideo_EF_Net import CogVideoX_EF_Net
+from EF_Net import EF_Net
 import cv2
 import os
 import sys
@@ -79,7 +79,7 @@ def generate_video(
     scheduler = CogVideoXDDIMScheduler.from_pretrained(pretrained_model_name_or_path, subfolder="scheduler")
     
     # 2. Load the pre-trained EF_Net
-    EF_Net = CogVideoX_EF_Net(num_layers=4, downscale_coef=8, in_channels=2, num_attention_heads=48,).requires_grad_(False).eval()
+    EF_Net = EF_Net(num_layers=4, downscale_coef=8, in_channels=2, num_attention_heads=48,).requires_grad_(False).eval()
     ckpt = torch.load(EF_Net_model_path, map_location='cpu', weights_only=False)
     EF_Net_state_dict = {}
     for name, params in ckpt['state_dict'].items():

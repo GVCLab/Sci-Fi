@@ -4,7 +4,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 ## Deployment for frame inbetweening
 ### 1. Setup repository and environment
 ```
-git clone https://github.com/LiuhanChen-github/Sci-Fi.git
+git clone https://github.com/GVCLab/Sci-Fi.git
 cd Sci-Fi
 conda create -n Sci-Fi python==3.12
 pip install -r requirements.txt

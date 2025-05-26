@@ -7,6 +7,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 git clone https://github.com/GVCLab/Sci-Fi.git
 cd Sci-Fi
 conda create -n Sci-Fi python==3.12
+conda activate Sci-Fi
 pip install -r requirements.txt
 ```
 ### 2. Download checkpoint

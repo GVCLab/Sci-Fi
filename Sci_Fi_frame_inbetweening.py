@@ -79,12 +79,12 @@ def generate_video(
     scheduler = CogVideoXDDIMScheduler.from_pretrained(pretrained_model_name_or_path, subfolder="scheduler")
     
     # 2. Load the pre-trained EF_Net
-    EF_Net = EF_Net(num_layers=4, downscale_coef=8, in_channels=2, num_attention_heads=48,).requires_grad_(False).eval()
+    EF_Net_model = EF_Net(num_layers=4, downscale_coef=8, in_channels=2, num_attention_heads=48,).requires_grad_(False).eval()
     ckpt = torch.load(EF_Net_model_path, map_location='cpu', weights_only=False)
     EF_Net_state_dict = {}
     for name, params in ckpt['state_dict'].items():
         EF_Net_state_dict[name] = params
-    m, u = EF_Net.load_state_dict(EF_Net_state_dict, strict=False)
+    m, u = EF_Net_model.load_state_dict(EF_Net_state_dict, strict=False)
     print(f'[ Weights from pretrained EF-Net was loaded into EF-Net ] [M: {len(m)} | U: {len(u)}]')
     
     #3. Load the prompt (Can be modified independently according to specific needs.)
@@ -98,7 +98,7 @@ def generate_video(
         text_encoder=text_encoder,
         transformer=transformer,
         vae=vae,
-        EF_Net=EF_Net,
+        EF_Net_model=EF_Net_model,
         scheduler=scheduler,
     )
     pipe.scheduler = CogVideoXDDIMScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")

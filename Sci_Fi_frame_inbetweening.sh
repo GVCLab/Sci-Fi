@@ -1,12 +1,13 @@
-export CUDA_VISIBLE_DEVICES=6
+export CUDA_VISIBLE_DEVICES=7
 EVAL_DIR=/home/lhchen/Sci-Fi/example_input_pairs
 MODEL_NAME=CogVideoX-5b-I2V
 OUT_DIR=outputs
+basename=eval_videos_dir
 
 mkdir -p $OUT_DIR
 for example_dir in $(ls -d $EVAL_DIR/*)
 do
-    example_name=$(EVAL_DIR $example_dir)
+    example_name=$(basename $example_dir)
     echo $example_name
 
     out_fn=$OUT_DIR/$example_name'.mp4'

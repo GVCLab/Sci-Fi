@@ -177,7 +177,7 @@ class CogVideoXEFNetInbetweeningPipeline(DiffusionPipeline, CogVideoXLoraLoaderM
         text_encoder: T5EncoderModel,
         vae: AutoencoderKLCogVideoX,
         transformer: CogVideoXTransformer3DModel,
-        EF_Net: EF_Net,
+        EF_Net_model: EF_Net,
         scheduler: CogVideoXDDIMScheduler,
     ):
         super().__init__()
@@ -187,7 +187,7 @@ class CogVideoXEFNetInbetweeningPipeline(DiffusionPipeline, CogVideoXLoraLoaderM
             text_encoder=text_encoder,
             vae=vae,
             transformer=transformer,
-            EF_Net=EF_Net,
+            EF_Net_model=EF_Net_model,
             scheduler=scheduler,
         )
         self.vae_scale_factor_spatial = (
@@ -742,7 +742,7 @@ class CogVideoXEFNetInbetweeningPipeline(DiffusionPipeline, CogVideoXLoraLoaderM
                 EF_Net_states = []
                 if (EF_Net_guidance_start <= current_sampling_percent < EF_Net_guidance_end):
                     # extract EF_Net hidden state
-                    EF_Net_states = self.EF_Net(
+                    EF_Net_states = self.EF_Net_model(
                         hidden_states=latent_image_input[:,:,0:16,:,:],
                         encoder_hidden_states=prompt_embeds,
                         image_rotary_emb=None,

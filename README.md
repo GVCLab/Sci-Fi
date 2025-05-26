@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 ### 2. Download checkpoint
 Download the CogVideoX-5B-I2V model (due to fine-tuning, the weights of the transformer denoiser are different from the original) and EF-Net.
-The weights are available at [🤗HuggingFace](https://www.modelscope.cn/models/clhxclh/Sci-Fi) and [🤖ModelScope](https://www.modelscope.cn/models/clhxclh/Sci-Fi).
+The weights are available at [🤗HuggingFace](https://huggingface.co/LiuhanChen/Sci-Fi) and [🤖ModelScope](https://www.modelscope.cn/models/clhxclh/Sci-Fi).
 
 ### 3. Launch the inference script!
 The example input keyframe pairs are in `examples/` folder, and 

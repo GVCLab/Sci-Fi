@@ -20,21 +20,21 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
   	</tr>
   	<tr>
 	  <td>
-	    <img src=example_input_pairs/input_pair2/start.jpg width="720">
+	    <img src=example_input_pairs/input_pair2/start.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair2/end.jpg width="720>
+	    <img src=example_input_pairs/input_pair2/end.jpg width="250>
 	  </td>
 	  <td>
-     		<image src=example_output_gifs/result2.gif width="720">
+     		<image src=example_output_gifs/result2.gif width="250">
 	  </td>
   	</tr>
          <tr>
 	  <td>
-	    <img src=example_input_pairs/input_pair3/start.jpg width="720">
+	    <img src=example_input_pairs/input_pair3/start.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair3/end.jpg width="720>
+	    <img src=example_input_pairs/input_pair3/end.jpg width="250">
 	  </td>
 	  <td>
      		<image src=cases/gen_5.gif width="250">
@@ -42,10 +42,10 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
   	</tr>
 	<tr>
 	  <td>
-	    <img src=example_input_pairs/input_pair4/start.jpg width="720">
+	    <img src=example_input_pairs/input_pair4/start.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair4/end.jpg width="720>
+	    <img src=example_input_pairs/input_pair4/end.jpg width="250">
 	  </td>
 	  <td>
      		<image src=cases/gen_5.gif width="250">

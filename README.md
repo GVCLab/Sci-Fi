@@ -26,7 +26,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair2/end.jpg width="720>
 	  </td>
 	  <td>
-     		<image src=cases/gen_5.gif width="250">
+     		<image src=example_output_gifs/result2.gif width="720">
 	  </td>
   	</tr>
          <tr>

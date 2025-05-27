@@ -1,5 +1,5 @@
-export CUDA_VISIBLE_DEVICES=7
-EVAL_DIR=/home/lhchen/Sci-Fi/example_input_pairs
+export CUDA_VISIBLE_DEVICES=0
+EVAL_DIR=example_input_pairs
 MODEL_NAME=CogVideoX-5b-I2V
 OUT_DIR=outputs
 basename=eval_videos_dir

@@ -15,7 +15,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair1/end.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_output_gifs/result1.gif width="250" loop="infinite">
+	    <img src=example_output_gifs/input_pair1.gif width="250" loop="infinite">
 	  </td>
   	</tr>
   	<tr>
@@ -26,7 +26,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair2/end.jpg width="250">
 	  </td>
 	  <td>
-     	    <img src=example_output_gifs/result2.gif width="250">
+     	    <img src=example_output_gifs/input_pair2.gif width="250">
 	  </td>
   	</tr>
          <tr>
@@ -37,7 +37,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair3/end.jpg width="250">
 	  </td>
 	  <td>
-     	    <img src=example_output_gifs/result3.gif width="250">
+     	    <img src=example_output_gifs/input_pair3.gif width="250">
 	  </td>
   	</tr>
 	<tr>
@@ -48,7 +48,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair4/end.jpg width="250">
 	  </td>
 	  <td>
-     	    <img src=example_output_gifs/result4.gif width="250">
+     	    <img src=example_output_gifs/input_pair4.gif width="250">
 	  </td>
   	</tr>
 </table >

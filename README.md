@@ -4,6 +4,10 @@
 <sup>1</sup>Shenzhen Graduate School, Peking University &nbsp;&nbsp;&nbsp; <sup>2</sup><a href='https://gvclab.github.io'>GVC Lab, Great Bay University</a>  &nbsp;&nbsp;&nbsp; 
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
+## Method comparison
+<img src=example_input_pairs/input_pair1/start.jpg width="250">
+
+## Some challenging examples of our Sci-Fi for frame inbetweening.
 <table class="center">
     <tr style="font-weight: bolder;text-align:center;">
         <td>Start frame</td>
@@ -56,8 +60,8 @@
   	</tr>
 </table >
 
-## Deployment for frame inbetweening
-### 1. Setup repository and environment
+## Deployment for personal use
+### 1. Setup the repository and environment
 ```
 git clone https://github.com/GVCLab/Sci-Fi.git
 cd Sci-Fi

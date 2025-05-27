@@ -9,10 +9,10 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
     </tr>
   	<tr>
 	  <td>
-	    <img src=example_input_pairs/input_pair1/start.jpg width="720">
+	    <img src=example_input_pairs/input_pair1/start.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair1/end.jpg width="720>
+	    <img src=example_input_pairs/input_pair1/end.jpg width="250>
 	  </td>
 	  <td>
      	    <image src=example_output_gifs/result1.gif width="250">

@@ -5,7 +5,9 @@
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
 ## Method comparison
-<img src="overview/comparison.png" width="720" align="center" alt="Comparison">
+<div align="center">
+  <img src="overview/comparison.png" width="720" alt="Comparison">
+</div>
 
 ## Some challenging examples of our Sci-Fi for frame inbetweening.
 <table class="center">

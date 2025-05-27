@@ -1,7 +1,7 @@
 ## Sci-Fi: Symmetric Constraint for Frame Inbetweening
 <h5>Liuhan Chen<sup>1</sup>, <a href='https://vinthony.github.io'>Xiaodong Cun</a><sup>2,*</sup>, <a href='https://xiaoyu258.github.io/'>Xiaoyu Li</a><sup>3</sup>, Xianyi He<sup>1,4</sup>, Shenghai Yuan<sup>1,4</sup>,  Jie Chen<sup>1</sup>, Ying Shan<sup>3</sup>, Li Yuan<sup>1,*</sup></h5>
 
-<sup>1</sup>Shenzhen Graduate School, Peking University &nbsp;&nbsp;&nbsp; <sup>2</sup><a href='https://gvclab.github.io'>GVC Lab, Great Bay University</a> 
+<sup>1</sup>Shenzhen Graduate School, Peking University &nbsp;&nbsp;&nbsp; <sup>2</sup><a href='https://gvclab.github.io'>GVC Lab, Great Bay University</a>  &nbsp;&nbsp;&nbsp; 
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
 <table class="center">

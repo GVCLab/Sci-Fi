@@ -10,10 +10,10 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
     </tr>
   	<tr>
 	  <td>
-	    <img src=example_input_pairs/input_pair1/start.jpg width="250">
+	    <img src=example_input_pairs/input_pair1/start.jpg width="720">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair1/end.jpg width="250>
+	    <img src=example_input_pairs/input_pair1/end.jpg width="720>
 	  </td>
       <td>
 	    A group of people dance in the street at night, forming a circle and moving in unison, exuding a sense of community and joy. A woman in an orange jacket is actively engaged in the dance, smiling broadly. The atmosphere is vibrant and festive, with other individuals participating in the dance, contributing to the sense of community and joy. 

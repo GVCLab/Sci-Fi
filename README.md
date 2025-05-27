@@ -23,10 +23,10 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair2/start.jpg width="250">
 	  </td>
 	  <td>
-	    <img src=example_input_pairs/input_pair2/end.jpg width="250>
+	    <img src=example_input_pairs/input_pair2/end.jpg width="250">
 	  </td>
 	  <td>
-     		<image src=example_output_gifs/result2.gif width="250">
+     	    <img src=example_output_gifs/result2.gif width="250">
 	  </td>
   	</tr>
          <tr>
@@ -37,7 +37,7 @@ Official PyTorch implementation of "Sci-Fi: Symmetric Constraint for Frame Inbet
 	    <img src=example_input_pairs/input_pair3/end.jpg width="250">
 	  </td>
 	  <td>
-     		<image src=cases/gen_5.gif width="250">
+     	    <img src=example_output_gifs/result3.gif width="250">
 	  </td>
   	</tr>
 	<tr>

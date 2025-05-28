@@ -5,7 +5,7 @@
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
 ## Video demos
-[Video demos of our Sci-Fi](https://youtu.be/_YfFH-uNYQk)
+[![Video demos of our Sci-Fi](overview/video_demos.png)(https://youtu.be/_YfFH-uNYQk)
 
 ## Method comparison
 <div align="center">

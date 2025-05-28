@@ -6,7 +6,9 @@
 
 ## Video demos
 [![Video demos of our Sci-Fi](overview/video_demos.png)](https://youtu.be/_YfFH-uNYQk)
-<video src="https://youtu.be/_YfFH-uNYQk" width="100%" controls autoplay loop></video>
+<video width="640" height="480" controls>
+  <source src="overview/video_demos.mp4" type="video/mp4">
+</video>
 [or click here to download the compressed version](overview/video_demos.mp4) 
 
 ## Method comparison

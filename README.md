@@ -92,7 +92,7 @@ To interpolate, run:
 bash Sci_Fi_frame_inbetweening.sh
 ```
 
-### 3. Launch the inference script!
+## Citation
 ```
 @misc{chen2025scifisymmetricconstraintframe,
       title={Sci-Fi: Symmetric Constraint for Frame Inbetweening}, 

@@ -5,9 +5,7 @@
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
 ## Video demos
-[![Demo Video of ConsisID](https://github.com/user-attachments/assets/634248f6-1b54-4963-88d6-34fa7263750b)](https://youtu.be/_YfFH-uNYQk)
-or you can click <a href="https://github.com/SHYuanBest/shyuanbest_media/raw/refs/heads/main/ConsisID/showcase_videos.mp4">here</a> to watch the video.
-[video demos]()
+[Demo Video of ConsisID](https://youtu.be/_YfFH-uNYQk)
 
 ## Method comparison
 <div align="center">

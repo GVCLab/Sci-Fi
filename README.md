@@ -21,6 +21,7 @@
           <video src="https://github.com/user-attachments/assets/7db2bbce-194d-434d-a605-350254b6c298" width="100%" controls autoplay loop></video>
      </td>
   </tr>
+	</table>
 [or click here to download](overview/video_demos.mp4) 
 
 ## Method comparison

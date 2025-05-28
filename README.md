@@ -5,7 +5,6 @@
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
 ## Video demos
-https://github.com/GVCLab/Sci-Fi/blob/main/overview/video_demos.mp4
 [![Video demos of our Sci-Fi](overview/video_demos.png)](https://youtu.be/_YfFH-uNYQk)
 
 [or click here to download the compressed version](overview/video_demos.mp4) 

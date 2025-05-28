@@ -6,6 +6,7 @@
 
 ## Video demos
 [![Video demos of our Sci-Fi](overview/video_demos.png)](https://youtu.be/_YfFH-uNYQk)
+<video src="https://youtu.be/_YfFH-uNYQk" width="100%" controls autoplay loop></video>
 [or click here to download the compressed version](overview/video_demos.mp4) 
 
 ## Method comparison

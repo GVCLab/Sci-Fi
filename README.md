@@ -6,14 +6,7 @@
 
 ## Video demos
 [![Video demos of our Sci-Fi](overview/video_demos.png)](https://youtu.be/_YfFH-uNYQk)
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="overview/video_demos.mp4" width="100%" controls autoplay loop></video>
-      </td>
-  </tr>
-</table>
-[or click here to download](overview/video_demos.mp4) 
+[or click here to download the compressed version](overview/video_demos.mp4) 
 
 ## Method comparison
 <div align="center">

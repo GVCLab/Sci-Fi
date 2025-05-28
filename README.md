@@ -4,6 +4,9 @@
 <sup>1</sup>Shenzhen Graduate School, Peking University &nbsp;&nbsp;&nbsp; <sup>2</sup><a href='https://gvclab.github.io'>GVC Lab, Great Bay University</a>  &nbsp;&nbsp;&nbsp; 
 <sup>3</sup>ARC Lab, Tencent PCG &nbsp;&nbsp;&nbsp; <sup>4</sup>Rabbitpre Intelligence
 
+## Video demos
+[video demos](https://youtu.be/_YfFH-uNYQk)
+
 ## Method comparison
 <div align="center">
   <img src="overview/comparison.png" width="720" alt="Comparison">

@@ -93,6 +93,7 @@ bash Sci_Fi_frame_inbetweening.sh
 ```
 
 ## Citation
+🌟 If you find our work helpful, please leave us a star and cite our paper.
 ```
 @misc{chen2025scifisymmetricconstraintframe,
       title={Sci-Fi: Symmetric Constraint for Frame Inbetweening}, 

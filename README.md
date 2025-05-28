@@ -6,7 +6,7 @@
 
 ## Video demos
 [![Video demos of our Sci-Fi](overview/video_demos.png)](https://youtu.be/_YfFH-uNYQk)
-[点击观看视频](overview/video_demos.mp4) 
+[or click here to download](overview/video_demos.mp4) 
 
 ## Method comparison
 <div align="center">

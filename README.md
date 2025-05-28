@@ -8,6 +8,11 @@
 <div align="center">
   <img src="overview/comparison.png" width="720" alt="Comparison">
 </div>
+(a)~In current I2V-DM-based methods, the end-frame constraint is weaker than the start-frame constraint due to the same injection mechanism but a smaller training scale.
+Consequently, inbetweening dynamics are heavily influenced by the start frame's I2V prior.
+For instance, rider motions in generated frames deviate from ground truth, instead resembling base model I2V results, causing a distorted predicted path with collapsed content.
+(b)~Our Sci-Fi maintains start frame processing while enhancing end-frame constraint injection.
+This achieves symmetric start-end-frame constraints with small training, yielding a fine predicted path close to the real one with smoother inbetweening.
 
 ## Some challenging examples of our Sci-Fi for frame inbetweening.
 <table class="center">

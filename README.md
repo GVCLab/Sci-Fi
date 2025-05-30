@@ -95,13 +95,10 @@ bash Sci_Fi_frame_inbetweening.sh
 ## Citation
 🌟 If you find our work helpful, please leave us a star and cite our paper.
 ```
-@misc{chen2025scifisymmetricconstraintframe,
-      title={Sci-Fi: Symmetric Constraint for Frame Inbetweening}, 
-      author={Liuhan Chen and Xiaodong Cun and Xiaoyu Li and Xianyi He and Shenghai Yuan and Jie Chen and Ying Shan and Li Yuan},
-      year={2025},
-      eprint={2505.21205},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.21205}, 
+@article{chen2025sci,
+  title={Sci-Fi: Symmetric Constraint for Frame Inbetweening},
+  author={Chen, Liuhan and Cun, Xiaodong and Li, Xiaoyu and He, Xianyi and Yuan, Shenghai and Chen, Jie and Shan, Ying and Yuan, Li},
+  journal={arXiv preprint arXiv:2505.21205},
+  year={2025}
 }
 ```

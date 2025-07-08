@@ -743,7 +743,7 @@ class CogVideoXEFNetInbetweeningPipeline(DiffusionPipeline, CogVideoXLoraLoaderM
                 if (EF_Net_guidance_start <= current_sampling_percent < EF_Net_guidance_end):
                     # extract EF_Net hidden state
                     EF_Net_states = self.EF_Net_model(
-                        hidden_states=latent_image_input[:,:,0:16,:,:],
+                        hidden_states=latent_model_input[:,:,0:16,:,:],
                         encoder_hidden_states=prompt_embeds,
                         image_rotary_emb=None,
                         EF_Net_states=latent_image_input[:,12::,:,:,:],
